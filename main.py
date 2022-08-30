@@ -221,7 +221,7 @@ if __name__ == "__main__":
         
         elif 'screenshot' in command:
             img = pyautogui.screenshot()
-            img.save(f"C:\\Users\\win11\\OneDrive\\Desktop\\AI-Tripti\\screenshots\\img{count}.png")
+            img.save(f"C:\\Users\\win11\\OneDrive\\Desktop\\AI-TRIPTI\\screenshots\\img{count}.png")
             count = count+1
             print("Screenshot has successfully taken.")
             talk("Screenshot has successfully taken")
