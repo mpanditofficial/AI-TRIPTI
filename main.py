@@ -169,7 +169,7 @@ if __name__ == "__main__":
             web = wordlist[-1]
             website = web+".com"
             print("opening " + web)
-            talk("opening " +website)
+            talk("opening " +web)
             wb.open_new_tab(website)
 
 
@@ -221,7 +221,7 @@ if __name__ == "__main__":
         
         elif 'screenshot' in command:
             img = pyautogui.screenshot()
-            img.save(f"C:\\Users\\win11\\OneDrive\\Desktop\\AI-TRIPTI\\screenshots\\img{count}.png")
+            img.save(f"screenshots\\img{count}.png")
             count = count+1
             print("Screenshot has successfully taken.")
             talk("Screenshot has successfully taken")
